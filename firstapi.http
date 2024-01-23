@@ -1,0 +1,10 @@
+@firstapi_HostAddress = http://localhost:5085
+
+GET {{firstapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET{{firstapi_HostAddress}}/api/Student/
+Accept:application/json
+
+
+###
