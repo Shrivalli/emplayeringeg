@@ -80,7 +80,7 @@ namespace firstapi.Controllers
             
             try
             {
-            _empserv.AddEmployee(employee);
+            await _empserv.AddEmployee(employee);
             }
             catch (DbUpdateException)
             {

@@ -251,3 +251,4 @@ E:\Fareportal\FourthBatch\firstapi\bin\Debug\net8.0\runtimes\win\lib\net7.0\Micr
 E:\Fareportal\FourthBatch\firstapi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\Fareportal\FourthBatch\firstapi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\Fareportal\FourthBatch\firstapi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\Fareportal\FourthBatch\firstapi\obj\Debug\net8.0\firstapi.sourcelink.json

@@ -14,9 +14,9 @@ namespace firstapi.Service
         {
             emprepo=_emprepo;
         }
-        public void AddEmployee(Employee e)
+        public async Task AddEmployee(Employee e)
         {
-           emprepo.AddEmployee(e);
+          await emprepo.AddEmployee(e);
         }
 
         public void DeleteEmployee(int id)

@@ -1,4 +1,6 @@
 using firstapi.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 
 namespace firstapi.Repository
 {
@@ -12,10 +14,11 @@ namespace firstapi.Repository
         {
             db=_db;
         }
-        public void AddEmployee(Employee e)
+        public async Task AddEmployee(Employee e)
         {
             db.Employees.Add(e);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
+            
         }
 
         public void DeleteEmployee(int id)
